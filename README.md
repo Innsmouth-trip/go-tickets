@@ -19,7 +19,7 @@ type Airline struct {
 	IsActive bool   `json:"is_active" bson:"is_active"`
 }
 ```
-Хотя [Json](http://api.travelpayouts.com/data/airlines.json), к которому она обращается имеет только 3 поля, а именно: name, code, name_translations.
+Хотя [Json](http://api.travelpayouts.com/data/airlines.json), к которому она обращается имеет только 3 поля, а именно: name, code, name_translations.<br />
 Поэтому, чтобы не получать пустые или ненужные данные, я закомментировал нунжные строки и добавил Code. 
 
 ```go
